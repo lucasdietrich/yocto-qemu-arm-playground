@@ -7,6 +7,6 @@
     <default revision="main" remote="github" sync-j="8" />
 
     <project name="yocto-qemu-arm-playground" remote="self" path="." />
-    <project name="poky" remote="yoctoproject" path="poky" revision="scarthgap" />
-    <project name="openembedded/meta-openembedded" remote="github" path="meta-openembedded" revision="scarthgap" />
+    <project name="poky" remote="yoctoproject" path="poky" revision="styhead-5.1.3" />
+    <project name="openembedded/meta-openembedded" remote="github" path="meta-openembedded" revision="styhead" />
 </manifest>
