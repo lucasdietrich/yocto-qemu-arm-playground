@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="github" fetch="https://github.com" />
-    <remote name="yoctoproject" fetch="https://git.yoctoproject.org/git" />
+    <remote name="yoctoproject" fetch="https://git.yoctoproject.org" />
     <remote name="self" fetch="git@github.com:lucasdietrich" />
 
     <default revision="main" remote="github" sync-j="8" />
