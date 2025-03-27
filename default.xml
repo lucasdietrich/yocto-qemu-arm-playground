@@ -2,9 +2,11 @@
 <manifest>
     <remote name="github" fetch="https://github.com" />
     <remote name="yoctoproject" fetch="https://git.yoctoproject.org/git" />
+    <remote name="self" fetch="git@github.com:lucasdietrich" />
 
     <default revision="main" remote="github" sync-j="8" />
 
+    <project name="yocto-qemu-arm-playground" remote="self" path="." />
     <project name="poky" remote="yoctoproject" path="poky" revision="scarthgap" />
     <project name="openembedded/meta-openembedded" remote="github" path="meta-openembedded" revision="scarthgap" />
 </manifest>
