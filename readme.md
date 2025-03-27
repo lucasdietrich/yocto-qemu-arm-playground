@@ -27,10 +27,17 @@ BBLAYERS ?= " \
   /home/lucas/projects/yocto-qemu-arm/meta-openembedded/meta-filesystems \
   /home/lucas/projects/yocto-qemu-arm/meta-openembedded/meta-webserver \
   /home/lucas/projects/yocto-qemu-arm/meta-openembedded/meta-python \
+  /home/lucas/projects/yocto-qemu-arm/meta-arm/meta-arm \
+  /home/lucas/projects/yocto-qemu-arm/meta-arm/meta-arm-toolchain \
   /home/lucas/projects/yocto-qemu-arm/meta-playground \
   "
 ```
 
 10. Build default image: `bitbake image-playground`
-11. Run qemu: `runqemu nographic`
+11. Run qemu: `runqemu qemuarm nographic`
 12. Build the SDK: `bitbake -c populate_sdk image-playground`
+
+## Tested machines
+
+- `MACHINE = "qemuarm"`
+- `MACHINE = "qemuarm-secureboot"`

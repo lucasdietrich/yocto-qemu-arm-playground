@@ -8,4 +8,5 @@ IMAGE_INSTALL += "packagegroup-core-full-cmdline \
                   openssh \
                   strace \
                   htop \
+                  optee-examples \
                   "
