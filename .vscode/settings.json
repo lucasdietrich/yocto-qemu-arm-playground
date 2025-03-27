@@ -1,0 +1,17 @@
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "build/**": true,
+        "build-test/**": true,
+        "./build/conf/**": false,
+        "./build-test/conf/**": false,
+        ".venv/**": true,
+    },
+    "bookmarks.saveBookmarksInProject": true,
+    "files.associations": {
+        "*.conf": "bitbake",
+        "*.inc": "bitbake"
+    }
+}
