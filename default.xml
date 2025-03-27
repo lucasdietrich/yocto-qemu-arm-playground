@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github" fetch="https://github.com" />
+    <remote name="yoctoproject" fetch="https://git.yoctoproject.org" />
+    <remote name="self" fetch="git@github.com:lucasdietrich" />
+
+    <default revision="main" remote="github" sync-j="8" />
+
+    <project name="yocto-qemu-arm-playground" remote="self" path="." />
+    <project name="poky" remote="yoctoproject" path="poky" revision="11a8dec6e29ac0b2fd942c0fc00dd7fc30658841" />
+    <project name="openembedded/meta-openembedded" remote="github" path="meta-openembedded" revision="c93994f1bb601c57548b588d4f77a044d90822cf" />
+</manifest>
