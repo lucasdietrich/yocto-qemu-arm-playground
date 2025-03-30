@@ -10,4 +10,5 @@
     <project name="poky" remote="yoctoproject" path="poky" revision="11a8dec6e29ac0b2fd942c0fc00dd7fc30658841" />
     <project name="meta-arm" remote="yoctoproject" path="meta-arm" revision="97284c1c3e1d262305e5201d92c6efc2158dd0e3" />
     <project name="openembedded/meta-openembedded" remote="github" path="meta-openembedded" revision="c93994f1bb601c57548b588d4f77a044d90822cf" />
+    <project name="meta-virtualization" remote="yoctoproject" path="meta-virtualization" revision="247ea9c3880a257003ce2cc566fcdbb307ea4374" />
 </manifest>
